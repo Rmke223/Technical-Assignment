@@ -1,0 +1,21 @@
+uuid: a3e4b4d0-50f4-42f3-98d1-bd7e4710f6c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme_color_scheme
+    - paragraphs.paragraphs_type.statistics
+_core:
+  default_config_hash: HX9mEMVmPdSBNXXU1uQ_H8-sr0P6xtFZZc2J7tvwZfw
+id: paragraph.statistics.field_theme_color_scheme
+field_name: field_theme_color_scheme
+entity_type: paragraph
+bundle: statistics
+label: 'Color theme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

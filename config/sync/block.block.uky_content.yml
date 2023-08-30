@@ -1,0 +1,22 @@
+uuid: 9c450a4d-06a5-42c0-898f-aeafa6c6784d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ukd8
+_core:
+  default_config_hash: CVis6784J6Y54dWXPyxugCldEleztm3rSC7ndXldq9Y
+id: uky_content
+theme: ukd8
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: d52806b6-0314-4e62-a764-68ad4bdbc550
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ukd8
+_core:
+  default_config_hash: 0jtoHJh35oowQwpjodTbo8vfFfY0Fv7NsRg6-lrCMRE
+id: uky_search
+theme: ukd8
+region: content_prefix
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

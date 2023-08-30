@@ -1,0 +1,12 @@
+uuid: 6929acb9-c782-4570-8af3-796861c4a359
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q81SbKNAj6LVxpPKA2UDdNuf9U9V36GXlscHJqtLAck
+id: body
+label: Body
+icon_uuid: null
+icon_default: null
+description: 'Rich text block'
+behavior_plugins: {  }

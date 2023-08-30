@@ -1,0 +1,11 @@
+uuid: 693fb138-77a1-4b70-affa-8efb329135c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.collection_item
+_core:
+  default_config_hash: KASKcvjHu-7erOBLClODaVi2r_zxPic7C2Q5PDrOfrE
+type: content_reference
+name: 'Content Reference'
+description: 'Pull in a rendered teaser'

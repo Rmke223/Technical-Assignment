@@ -1,0 +1,20 @@
+uuid: bfd98ca0-69d9-4766-afe5-d47bfbdfc9cb
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ukd8
+_core:
+  default_config_hash: QT1C9FXZeGsGW3GOUuyesTOkSUguvFD0IP_G3sx73ik
+id: uky_local_actions
+theme: ukd8
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

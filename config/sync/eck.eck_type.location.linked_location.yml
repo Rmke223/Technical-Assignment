@@ -1,0 +1,11 @@
+uuid: 88a5a81f-7dca-4e03-8f46-064df01f89d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.location
+_core:
+  default_config_hash: Bgfh5qP-kCZKsUlcOn4Kw3as9e4IIJ5LzbYx-58QE-8
+type: linked_location
+name: 'Linked Location'
+description: 'A location with optional link and/or address'

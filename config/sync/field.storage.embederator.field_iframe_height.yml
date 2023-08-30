@@ -1,0 +1,22 @@
+uuid: b853eb06-1c4e-4472-836f-4dcc9cbdaa1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - embederator
+_core:
+  default_config_hash: V-B2LOV3n9VidUzDpMb6-posJqintblzs_olFSQZkAw
+id: embederator.field_iframe_height
+field_name: field_iframe_height
+entity_type: embederator
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

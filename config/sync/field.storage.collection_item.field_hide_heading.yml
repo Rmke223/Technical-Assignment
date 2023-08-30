@@ -1,0 +1,20 @@
+uuid: e653d29c-caa1-40fa-8920-959673d26ec8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: Ro7nsOvGfURAauTmFQjpRfZNMQ2CZfsS1bJLRyo4AcE
+id: collection_item.field_hide_heading
+field_name: field_hide_heading
+entity_type: collection_item
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

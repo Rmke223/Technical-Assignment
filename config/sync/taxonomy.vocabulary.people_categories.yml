@@ -1,0 +1,10 @@
+uuid: 2f392739-0cb7-4efb-a119-072418692317
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tkDmmFqTpp_D_Ceu1Y-f9RFvYZwZuxvbJ88kc4jutrI
+name: 'People Categories'
+vid: people_categories
+description: 'Organization for persons'
+weight: 0

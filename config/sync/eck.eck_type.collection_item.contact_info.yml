@@ -1,0 +1,11 @@
+uuid: 4ea23604-8604-4590-9395-89cf1cbdecfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.collection_item
+_core:
+  default_config_hash: _3RJ5saQ45wi3jLQzN696zyWBCXWWphKK57B6HwhK9k
+type: contact_info
+name: 'Contact Info'
+description: 'Contact information block'
