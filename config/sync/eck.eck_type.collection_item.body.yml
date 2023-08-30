@@ -1,0 +1,11 @@
+uuid: a1ba1b94-b2b9-4dfc-8ecf-7622fb030156
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.collection_item
+_core:
+  default_config_hash: dUwmCOkEjZ0Tv1h9qR2fQeQwHV_41ckZq2BpTzROxug
+type: body
+name: Body
+description: 'Just some rich text'

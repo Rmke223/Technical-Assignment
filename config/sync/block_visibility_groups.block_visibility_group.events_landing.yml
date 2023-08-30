@@ -1,0 +1,19 @@
+uuid: ca77c7d9-6e32-4e1e-91f6-7ca1f4edbad2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+_core:
+  default_config_hash: 1K2OOHH7ZorKVtCTkThNuQUAnvCwWMoYIry6cn4gvP0
+id: events_landing
+label: 'Events Landing'
+logic: and
+conditions:
+  ce4a3885-fe17-4e0a-acc9-b31554b5adec:
+    id: request_path
+    pages: /events
+    negate: false
+    context_mapping: {  }
+    uuid: ce4a3885-fe17-4e0a-acc9-b31554b5adec
+allow_other_conditions: false

@@ -1,0 +1,31 @@
+uuid: 61766243-e64c-4661-8a64-320ab9c60494
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_college_and_department
+    - node.type.course
+    - taxonomy.vocabulary.colleges
+    - taxonomy.vocabulary.de
+id: node.course.field_college_and_department
+field_name: field_college_and_department
+entity_type: node
+bundle: course
+label: 'College and Department'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      colleges: colleges
+      de: de
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: colleges
+field_type: entity_reference

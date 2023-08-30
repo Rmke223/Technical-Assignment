@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: ScKqybx2fc3YwzqZhzEWUA6p8KUvXXvAB5OG8qZWxc0
+langcode: en
+name: ddev_gitpod
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+uuid: f495b4c3-7dcf-490b-9398-67f4aef4378a

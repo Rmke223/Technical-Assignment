@@ -1,0 +1,12 @@
+uuid: bf34cf1c-47d6-44df-a9f4-b2e9f6d915a0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qcQVcSUWj3HClnA7d572wo1QLgNQ4bqVyW6lQl97VAc
+id: feed
+label: Feed
+icon_uuid: null
+icon_default: null
+description: 'A filtered listing'
+behavior_plugins: {  }

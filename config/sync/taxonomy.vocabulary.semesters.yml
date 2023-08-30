@@ -1,0 +1,8 @@
+uuid: b81e4667-37d8-4d8d-b9fa-5409a4acaf61
+langcode: en
+status: true
+dependencies: {  }
+name: Semesters
+vid: semesters
+description: ''
+weight: 0

@@ -1,0 +1,29 @@
+uuid: a2458c0a-6d5b-49e5-92e6-434b199ff55b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_embed_type
+    - paragraphs.paragraphs_type.embederator
+_core:
+  default_config_hash: O1u8UBDSxuGfes6bzurWlRI4m97eUEx-PzDk6t_VmRo
+id: paragraph.embederator.field_embed_type
+field_name: field_embed_type
+entity_type: paragraph
+bundle: embederator
+label: 'Embed Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:embederator'
+  handler_settings:
+    target_bundles: null
+    negate: '0'
+    target_bundles_drag_drop:
+      uky_maps_embed:
+        weight: '2'
+        enabled: 0
+field_type: entity_reference
