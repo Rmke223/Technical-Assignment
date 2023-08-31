@@ -1,6 +1,7 @@
-# UKY Web Platform Project Template
-
-This project template provides a starter kit for managing your site dependencies with [Composer](). It is a variation of the official [Drupal Composer](https://github.com/drupal-composer/drupal-project) Drupal project starter kit, with additions and modifications specific to the Univeristy of Kentucky web platform. 
+# UKY Technical Assignment.
+Academic course browser component for use in displaying the courses included in
+an academic program. The component should provide both a list view and a card view, enabling
+users to browse through the courses efficiently.
 
 ## UK Specific Modifications
 
