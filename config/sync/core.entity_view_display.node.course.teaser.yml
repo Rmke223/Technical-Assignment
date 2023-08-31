@@ -1,4 +1,4 @@
-uuid: 4a6e9891-6bc4-4dc1-a03a-aaa2df9e0ddc
+uuid: b9ea0d4f-a264-41ce-9bfa-eac41b02b809
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.course.field_college_and_department
     - field.field.node.course.field_course_description
-    - field.field.node.course.field_course_name
     - field.field.node.course.field_course_number
+    - field.field.node.course.field_course_title
     - field.field.node.course.field_semesters_offered
     - field.field.node.course.field_sign_up_link
     - node.type.course
@@ -26,7 +26,7 @@ content:
 hidden:
   field_college_and_department: true
   field_course_description: true
-  field_course_name: true
   field_course_number: true
+  field_course_title: true
   field_semesters_offered: true
   field_sign_up_link: true

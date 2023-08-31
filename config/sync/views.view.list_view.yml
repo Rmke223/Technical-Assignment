@@ -1,12 +1,12 @@
-uuid: eb2f6460-caa1-4557-83e3-0f40d44f6f24
+uuid: 7fb4b17d-c308-48f3-a857-232f594eed11
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_college_and_department
     - field.storage.node.field_course_description
-    - field.storage.node.field_course_name
     - field.storage.node.field_course_number
+    - field.storage.node.field_course_title
     - field.storage.node.field_semesters_offered
     - field.storage.node.field_sign_up_link
     - node.type.course
@@ -15,8 +15,8 @@ dependencies:
     - link
     - node
     - user
-id: courses
-label: Courses
+id: list_view
+label: 'List View'
 module: views
 description: ''
 tag: ''
@@ -29,7 +29,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Courses
+      title: 'List View'
       fields:
         title:
           id: title
@@ -96,15 +96,79 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_course_name:
-          id: field_course_name
-          table: node__field_course_name
-          field: field_course_name
+        field_course_number:
+          id: field_course_number
+          table: node__field_course_number
+          field: field_course_number
           relationship: none
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: 'Course Name'
+          label: 'Course Number'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_course_title:
+          id: field_course_title
+          table: node__field_course_title
+          field: field_course_title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: 'Course Title'
           exclude: false
           alter:
             alter_text: false
@@ -219,7 +283,7 @@ display:
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
-          multi_type: ol
+          multi_type: ul
           separator: ', '
           field_api_classes: false
         field_course_description:
@@ -272,73 +336,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: true
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        field_course_number:
-          id: field_course_number
-          table: node__field_course_number
-          field: field_course_number
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: 'Course Number'
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: number_integer
-          settings:
-            thousand_separator: ''
-            prefix_suffix: true
+          type: basic_string
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -468,7 +467,7 @@ display:
             url_only: false
             url_plain: false
             rel: '0'
-            target: _blank
+            target: '0'
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -585,8 +584,8 @@ display:
       tags:
         - 'config:field.storage.node.field_college_and_department'
         - 'config:field.storage.node.field_course_description'
-        - 'config:field.storage.node.field_course_name'
         - 'config:field.storage.node.field_course_number'
+        - 'config:field.storage.node.field_course_title'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'
   page_1:
@@ -596,10 +595,10 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: courses
+      path: list-view
       menu:
         type: normal
-        title: Courses
+        title: 'List View'
         menu_name: main
         parent: ''
     cache_metadata:
@@ -613,7 +612,7 @@ display:
       tags:
         - 'config:field.storage.node.field_college_and_department'
         - 'config:field.storage.node.field_course_description'
-        - 'config:field.storage.node.field_course_name'
         - 'config:field.storage.node.field_course_number'
+        - 'config:field.storage.node.field_course_title'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'

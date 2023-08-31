@@ -1,11 +1,11 @@
-uuid: 8b69567b-2e3d-4ae9-9265-36fa5707db72
+uuid: f36339cf-3cf8-488c-a57a-53c88189dd86
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_course_name
-field_name: field_course_name
+id: node.field_course_title
+field_name: field_course_title
 entity_type: node
 type: string
 settings:

@@ -1,4 +1,4 @@
-uuid: ca1904ae-4da0-47e9-9c12-e672660254e7
+uuid: 8f4c7598-f7fb-4584-901f-13662615d88c
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,12 @@ label: 'Sign-Up Link'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://uky.edu'
+    title: Register
+    options: {  }
 default_value_callback: ''
 settings:
   title: 1

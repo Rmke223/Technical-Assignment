@@ -1,4 +1,4 @@
-uuid: 0af697c0-9bc4-40d9-9e27-6b0ceebcdf1e
+uuid: 5016ba53-ddf8-4752-89e8-001e2b743430
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ id: node.course.title
 field_name: title
 entity_type: node
 bundle: course
-label: 'Course Title'
+label: Course
 description: ''
 required: true
 translatable: true

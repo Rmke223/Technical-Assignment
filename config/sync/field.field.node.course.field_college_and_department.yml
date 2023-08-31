@@ -1,12 +1,12 @@
-uuid: 61766243-e64c-4661-8a64-320ab9c60494
+uuid: b98061c3-a892-4b13-bec6-799ff83f5c3b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_college_and_department
     - node.type.course
-    - taxonomy.vocabulary.colleges
-    - taxonomy.vocabulary.de
+    - taxonomy.vocabulary.college
+    - taxonomy.vocabulary.departments
 id: node.course.field_college_and_department
 field_name: field_college_and_department
 entity_type: node
@@ -21,11 +21,11 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      colleges: colleges
-      de: de
+      college: college
+      departments: departments
     sort:
       field: name
       direction: asc
     auto_create: false
-    auto_create_bundle: colleges
+    auto_create_bundle: college
 field_type: entity_reference
