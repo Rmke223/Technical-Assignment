@@ -1,4 +1,4 @@
-uuid: bb126d61-25cd-4ed9-89ba-f624acadf831
+uuid: e55afbcf-c098-43e8-b414-eed4ef359ca0
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,12 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
 name: Course
 type: course
-description: 'Information about current available college courses.'
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1

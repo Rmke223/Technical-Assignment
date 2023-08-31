@@ -1,8 +1,8 @@
-uuid: 218312bd-4290-4f45-a892-1281c2b7ab33
+uuid: aaf02617-5a02-4689-9db0-166e28b7004a
 langcode: en
 status: true
 dependencies: {  }
-name: Departments
-vid: de
+name: College
+vid: college
 description: ''
 weight: 0

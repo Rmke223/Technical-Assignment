@@ -1,12 +1,12 @@
-uuid: 136e9976-c36b-4edd-b3a9-4dd457ecfbe4
+uuid: ef5f84b8-ee66-4774-9672-041b1f60f169
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.course.field_college_and_department
     - field.field.node.course.field_course_description
-    - field.field.node.course.field_course_name
     - field.field.node.course.field_course_number
+    - field.field.node.course.field_course_title
     - field.field.node.course.field_semesters_offered
     - field.field.node.course.field_sign_up_link
     - node.type.course
@@ -35,26 +35,26 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_course_description:
-    type: string_textfield
+    type: string_textarea
     weight: 124
     region: content
     settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_course_name:
-    type: string_textfield
-    weight: 128
-    region: content
-    settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_course_number:
     type: number
-    weight: 123
+    weight: 128
     region: content
     settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_course_title:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_semesters_offered:

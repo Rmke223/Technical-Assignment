@@ -1,4 +1,4 @@
-uuid: a61e5440-3170-41e2-8c99-57f84113b1a5
+uuid: 8b228447-e50c-490d-a8fa-9481c5a316e8
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,6 @@ dependencies:
     - field.storage.node.field_semesters_offered
     - node.type.course
     - taxonomy.vocabulary.semesters
-  content:
-    - 'taxonomy_term:semesters:95bf2faf-718d-4bcc-9c65-c270c545c0c4'
-    - 'taxonomy_term:semesters:ceb804ac-6eae-4503-9d0a-3af20fffa88b'
-    - 'taxonomy_term:semesters:d5d3ceb7-1261-4643-813c-51bf920aae69'
 id: node.course.field_semesters_offered
 field_name: field_semesters_offered
 entity_type: node
@@ -18,13 +14,7 @@ label: 'Semesters Offered'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: d5d3ceb7-1261-4643-813c-51bf920aae69
-  -
-    target_uuid: 95bf2faf-718d-4bcc-9c65-c270c545c0c4
-  -
-    target_uuid: ceb804ac-6eae-4503-9d0a-3af20fffa88b
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

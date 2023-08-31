@@ -1,4 +1,4 @@
-uuid: 7ad2db51-48e3-483d-905a-a5cfbdffcafa
+uuid: c6852d54-0435-448a-8a2e-d70be2baa4b7
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,9 @@ dependencies:
 id: node.field_course_description
 field_name: field_course_description
 entity_type: node
-type: string
+type: string_long
 settings:
-  max_length: 1000
   case_sensitive: false
-  is_ascii: false
 module: core
 locked: false
 cardinality: 1

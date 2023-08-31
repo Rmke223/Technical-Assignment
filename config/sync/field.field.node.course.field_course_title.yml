@@ -1,15 +1,15 @@
-uuid: a8d4cfc8-cc54-4dc0-92e4-fc466a970daa
+uuid: 993dd80f-241a-41a6-92e2-e41a8d1098fa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_course_name
+    - field.storage.node.field_course_title
     - node.type.course
-id: node.course.field_course_name
-field_name: field_course_name
+id: node.course.field_course_title
+field_name: field_course_title
 entity_type: node
 bundle: course
-label: 'Course Name'
+label: 'Course Title'
 description: ''
 required: false
 translatable: false
