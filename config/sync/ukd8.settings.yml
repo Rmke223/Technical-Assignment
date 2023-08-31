@@ -1,8 +1,8 @@
 _core:
   default_config_hash: 39fmAMf2-JDfGsNEW2WYE3ghb_To3VO4HlY0Xr-jXo0
 is_main: false
-lockup_wordmark_1: 'Your department'
-lockup_wordmark_2: name
+lockup_wordmark_1: 'Technical Assignment'
+lockup_wordmark_2: ''
 uky_home_url: 'https://www.uky.edu/'
 college_url: 'https://www.uky.edu'
 college_title: 'Parent unit'
@@ -60,3 +60,21 @@ layout_boolean_settings:
   paragraph__carousel__center:
     name: 'Use centered carousel style'
     value: false
+features:
+  favicon: 1
+favicon:
+  use_default: 1
+logo_option: wordmark
+lockup_wordmark_1_subhead: 0
+lockup_wordmark_1_no_mobile: 0
+lockup_wordmark_2_subhead: 0
+lockup_wordmark_2_no_mobile: 0
+page_header__full_width: white
+page_header__split_header: light
+page_header__text_only: white
+collection_item__call_to_action: white
+collection_item__pullquote: white
+paragraph__statistics: white
+paragraph__carousel: white
+paragraph__statistics__divide: 0
+paragraph__carousel__center: 1
